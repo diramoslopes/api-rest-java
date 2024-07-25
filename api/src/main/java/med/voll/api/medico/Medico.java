@@ -84,4 +84,8 @@ public class Medico {
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
+
+    public Long getId() {
+        return id;
+    }
 }
